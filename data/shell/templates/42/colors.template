@@ -10,7 +10,7 @@ $bg_color: if($variant == 'light', darken($base_color, 5%), lighten($base_color,
 $fg_color: if($variant == 'light', transparentize(black, .2), {{window_fg_color}}); // UPDT: Modified from original
 
 $accent_fg_color: {{accent_fg_color}};
-$selected_fg_color: if($variant == 'light', $accent_fg_color, {{window_fg_color}}); // UPDT: Modified from original
+$selected_fg_color: {{accent_fg_color}}; // UPDT: Modified from original
 $selected_bg_color: {{accent_bg_color}}; // UPDT: Modified from original
 $selected_borders_color: if($variant == 'light', darken($selected_bg_color, 15%), darken($selected_bg_color, 30%)); // NOTE: Unused in GNOME Shell
 

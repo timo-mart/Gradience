@@ -13,7 +13,7 @@ $fg_color: if($variant == 'light', transparentize(black, .2), white);
 
 
 $accent_fg_color: {{accent_fg_color}};
-$selected_fg_color: if($variant == 'light', $accent_fg_color, {{window_fg_color}});
+$selected_fg_color: {{accent_fg_color}};
 $selected_bg_color: {{accent_bg_color}};
 $selected_borders_color: if($variant== 'light', darken($selected_bg_color, 15%), darken($selected_bg_color, 30%));
 

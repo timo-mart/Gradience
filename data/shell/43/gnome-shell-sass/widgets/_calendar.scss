@@ -21,11 +21,13 @@
   // weekday label
   .day-label {
     @extend %heading;
+    color: $insensitive_fg_color;
   }
 
   // date label
   .date-label {
     @extend %title_2;
+    color: $insensitive_fg_color;
   }
 }
 
