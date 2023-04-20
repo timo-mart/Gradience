@@ -27,6 +27,7 @@
   // date label
   .date-label {
     @extend %title_2;
+    color: $insensitive_fg_color;
   }
 }
 
